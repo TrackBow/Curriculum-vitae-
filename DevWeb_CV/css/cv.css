@@ -1,0 +1,348 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+    
+}
+
+@media (min-width:20px) and (max-width: 100px) {
+	#main { width: 50%; }
+	#main { color: crimson; }
+	/* etc. */
+}
+a { 
+    text-decoration: none;
+    color: #dadada; }
+
+#entete, #colonneG, #colonneD, #piedPage {
+    padding:1px 0;
+    
+    }
+
+    #entete {
+    
+    text-align:center;
+    background:#16354D;
+    color: #E4E5EA;
+    font-weight: 1 1000;
+    height: 150px;
+    }
+
+    #main {
+    font-size: large;
+    max-width:1500px;
+    height: 1400px;
+    margin:auto;
+    margin-top: -200px;
+    }
+    .colonneG  {
+    float:left;
+    margin-top: 000px;
+    height: 1800px;
+    width:1000px;
+    margin-left: -200px;
+    background: #ffffff;
+    color: #0C151C;
+    }
+    .colonneD{
+    margin-top: 400px;
+    text-align: left;
+    margin-left: 1200px;
+    background-color:#ffffff;
+    color: #0C151C;
+    }
+    #piedPage {
+    background: #6B99C3 ;
+    color: #ffffff;
+    text-align:center;
+    clear:both;
+    }
+    
+    .LigneV1{
+        
+        margin-left: -105px;
+        float:left;
+        height: 480px;
+        border-left: 2px solid #0C151C;
+    }
+
+    .LigneV2{
+        
+        margin-left: 90px;
+        float:left;
+        height: 540px;
+        border-left: 2px solid #0C151C;
+    }
+
+    .Experiences,
+    .DiplômesIngé {
+        float: right;
+        color: #0C151C;
+        text-align: left;
+    }
+    
+    .DiplômesFormations {
+        margin-right: 200px;
+        margin-top: 600px;  
+        text-align: left;
+    }
+
+    .Bac{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .JobEtudiant{
+        float : left;
+        margin-left: 0px;
+        color : #0C151C;
+    }
+
+
+    .StageOuvrier{
+        float : left;
+        margin-left: 0px;
+        color : #0C151C;
+
+    }
+
+    .Stage{
+        float : left;
+        margin-left: 0px;
+        color : #0C151C;
+    }
+
+    .Compétences{
+        float :left;
+        margin-left: 100px;
+        text-align: left;
+        color: #0C151C;
+    }
+
+    /* #Atouts{
+        float : left;
+    } */
+  
+
+    .txt{
+        text-align: center;
+        color: #E4E5EA;
+        margin-top: 30px;
+    }
+
+    .drapeau{
+        margin-left: -900px;
+        margin-top: 0px;
+    }
+
+    .calendrier{
+        margin-left: -450px;
+        margin-top: -41px;
+    }
+
+    .adresse{
+        margin-left: 0px;
+        margin-top: -44px;
+    }
+
+    .permis{
+        margin-left: 500px;
+        margin-top: -43px;
+    }
+
+    .voiture{
+        margin-left:  900px;
+        margin-top: -42px;
+    }
+
+    
+    .reseaux{
+        margin-left: 000px;
+        margin-top: 20px;
+    }
+
+    .Date{
+        float: left;
+        margin-left: 0px;
+        font-style: italic;
+        color : #0C151C;
+        text-align: center;
+    }
+
+    .Entreprise{
+        float: none;
+        margin-left: 150px;
+        font-style: italic;
+        color : #0C151C;
+    }
+
+    .Lieu{
+        float:right;
+        margin-left : 200px;
+        font-size: italic;
+        color : #0C151C;
+        text-align: center;
+    }
+    
+    .titreDiplome{
+        text-align: left;
+        margin-left:200px;
+    }
+
+    .Diplômes{
+        float: none;
+        text-align: center;
+        color : #0C151C;
+    }
+
+    .Compétences{
+        margin-left: 0px;
+    }
+
+    .CentresInterets{
+        text-align: left;
+        margin-left: 0px;
+    }
+
+    .Texte{
+        margin-left: 0px;
+        text-align: left;
+        color : #0C151C;
+    }
+
+    .image{
+        background-color: #ffffff;
+        margin-top: 0px;
+        margin-left: -300px;
+    }
+    
+
+    .uneal,
+    .cerfrance,
+    .paraservices {
+        background-color: #ffffff;
+        border: none;
+        border-radius: 10px;
+        color: #0C151C;
+        font-size: large;
+    }
+    
+    .uneal:link,
+    .uneal:visited,
+    .uneal:focus {
+        background-color: #0C151C;
+        border: none;
+        border-radius: 10px;
+        color: #0C151C;
+    }
+    
+    .uneal:hover {
+        background: #16354D;
+        border: none;
+        border-radius: 10px;
+        color: #E4E5EA;
+    }
+    
+    .uneal:active {
+        background: rgb(255, 255, 255);
+        color: #316879;
+        border: none;
+        border-radius: 10px;
+        color: #0C151C;
+    }
+    
+
+
+    .action-bouton,
+    .action-bouton:link,
+    .action-bouton:visited,
+    .action-bouton:focus {
+        background-color: #ffffff;
+        border: none;
+        border-radius: 10px;
+        color: #16354D;
+    }
+    
+    .action-bouton:hover {
+        background: #16354D;
+        border: none;
+        border-radius: 10px;
+        color: #E4E5EA;
+    }
+    
+    .action-bouton:active {
+        background: rgb(255, 255, 255);
+        color: #D2D2D4;
+        border: none;
+        border-radius: 10px;
+        color: #E4E5EA;
+    }
+
+    .images-etudes{
+        text-align: left;
+        margin-left: 1000px;
+        margin-top:-1500px;
+    }
+
+    .logoINSA{
+        margin-top: 850px;
+        margin-left: -100px;
+    }
+
+    .logoND{
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    .logoSJBV{
+        margin-top: 10px;
+    }
+  
+    .point1{
+        margin-top: 115px;
+        margin-left: -14px;
+    }
+
+    .point2{
+        margin-top: 100px;
+        margin-left: -14px;
+    }
+
+    .point3{
+        margin-top: 90px;
+        margin-left: -14px;
+    }
+
+    .point4{
+        margin-top: 115px;
+        margin-left: -14px;
+    }
+
+    .point5{
+        margin-top: 100px;
+        margin-left: -14px;
+    }
+
+    .point6{
+        margin-top: 110px;
+        margin-left: -14px;
+    }
+    /* .imgUneal{
+        height: 130px;
+        width: 90px ;
+    } */
+
+    .interet{
+        flex: 0 1 50%;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .interet img{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 15px #555;
+    }
